@@ -42,7 +42,7 @@ def display_score(correct_guesses, guesses):
     
     print ("Answers: ", end="")
     for i in questions:
-        print(questions.get(i), end="")
+        print(questions.get(i), end=" ")
     print()
 
      print ("Guesses: ", end="")
