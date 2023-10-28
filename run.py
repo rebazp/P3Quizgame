@@ -6,7 +6,7 @@ questions = {
     "Which is the biggest mammal on planet earth?: ": "B",
     "Which is the fastest animal on planet earth?: ": "A",
     "Who wrote the epic stories of Harry Potter?: ": "C",
-    "Which wrote the famous book The Alchemist?: ": "D",
+    "Who wrote the famous book The Alchemist?: ": "D",
     "What's The Batman's real name?: ": "D",
     "What's the name of the director of The Gladiator starring Russell Crowe?: ": "A",
     "How many letters are there in the English alphabet?: ": "B",
