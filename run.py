@@ -43,7 +43,7 @@ def new_game():
         print(key)
         for i in options[question_number - 1]:
             print(i)
-        guess = input("Enter (A, B, C, D): ")
+        guess = input("Enter (A, B, C, D):\n ")
         guess = guess.upper()
         guesses.append(guess)
 
@@ -88,7 +88,7 @@ def display_score(correct_guesses, guesses):
 Function to replay the game
 """
 def play_again():
-    response = input("Play again? (Yes or No): ")
+    response = input("Play again? (Yes or No):\n ")
     response = response.upper()
 
     if response == "YES":
