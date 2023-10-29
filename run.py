@@ -35,12 +35,14 @@ Function for new game
 """
 
 def new_game():
+    print("-------------------------")
+    print("WELCOME TO MY QUIZGAME!")
     guesses = []
     correct_guesses = 0
     question_number = 1
 
     for key in questions:
-        print("-------------------------\n WELCOME TO MY QUIZGAME!\n-------------------------")
+        print("-------------------------")
         print(key)
         for i in options[question_number - 1]:
             print(i)
