@@ -2,9 +2,9 @@
 
 Quizgame is a terminal based python game where the player have to answer ten specific questions chosen by me. Each questions have four options but only one is correct. At the end of the game the player will see the score in percentage, the correct answers and aksed to replay the game.
 
-![Live version of my project](assets/images/responsive.jpg)
+![Live version of my project](https://rebazp-quizgame-bbdf6dc3b389.herokuapp.com/)
 
-![Responsive Mockup](assets/images/responsive.jpg)
+![Responsive Mockup](media/quiz-responsive.jpg)
 
 ## How to play
 
@@ -24,13 +24,13 @@ This game have two features. One where the player will choose one out of 4 optio
 
 This is where the player will have to choose one out of 4 options.
 
-![Game](assets/images/game.jpg)
+![Game](media/quiz-start.jpg)
 
 - __The Result Area__
 
 This is where the correct answer and player guesses are displayed. The score is displayed in percentage and the player is asked to play again. The playeer will have to type Yes or No.
 
-![Game](assets/images/game.jpg)
+![Game](media/quiz-finish.jpg)
 
 ### Features left to implement
 
