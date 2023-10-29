@@ -40,6 +40,17 @@ This is where the correct answer and player guesses are displayed. The score is 
 
 ## Data Model
 
+I decided to use functions and dictionary in my project. The game has four functions that let the player start the game, see the available options, choose one asnwer, check the answer and replay the game. The dictionary holds all the options the player can choose from and the questions that are available.
+
+Function
+- New game
+- Check answer
+- Check score
+- Replay game
+
+Dictionary
+- Options
+- Questions
 
 ## Testing
 
@@ -76,10 +87,11 @@ This project was deployes using the Code Institute's mock terminal for Heroku.
 
 ## Credits
 
-The code that I've used in this project is my own. Code that I've learned from Code Institute Python modules, loop tutorial that I found online and from Youtube channel.
+The code that I've used in this project is my own. Code that I've learned from Code Institute Python modules, loop tutorial that I found online and from Youtube.
 
 - [Python Loop](https://www.youtube.com/watch?v=yriw5Zh406s&t=199s&ab_channel=BroCode)
 - [Bro Code](https://www.youtube.com/watch?v=yriw5Zh406s&t=199s&ab_channel=BroCode)
+- [Bro Code](https://www.youtube.com/watch?v=zehwgTB0vV8&ab_channel=BroCode)
 
 ### Content
 
