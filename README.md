@@ -1,8 +1,6 @@
 ## Quizgame
 
-Quizgame is a terminal based python game where the player have to answer ten specific questions chosen by me. Each questions have four options but only one is correct. At the end of the game the player will see the score in percentage, the correct answers and aksed to replay the game.
-
-![Live version of my project](https://rebazp-quizgame-bbdf6dc3b389.herokuapp.com/)
+Quizgame is a terminal based python game where the player have to answer ten specific questions. Each questions have four options but only one is correct. At the end of the game the player will see the score in percentage, the correct answers and aksed to replay the game.
 
 ![Responsive Mockup](media/quiz-responsive.jpg)
 
@@ -16,19 +14,19 @@ This game is for entertainment purpose and to see if the player have good memory
 
 ## Features
 
-This game have two features. One where the player will choose one out of 4 options for every option that appears. The second feature is where the result will appear, the correct answers and ask the player if he/she want's to play again.
+This game has two features. One where the player will choose one out of four options for every option that appears. The second feature is where the result will appear, the correct answers and ask the player if he/she want's to play again.
 
 ### Existing Features
 
 - __The Game Area__
 
-This is where the player will have to choose one out of 4 options.
+This is where the player will have to choose one out of four options.
 
 ![Game](media/quiz-start.jpg)
 
 - __The Result Area__
 
-This is where the correct answer and player guesses are displayed. The score is displayed in percentage and the player is asked to play again. The playeer will have to type Yes or No.
+This is where the correct answer and player guesses are displayed. The score is displayed in percentage and the player is asked to play again. The player will have to type Yes or No.
 
 ![Game](media/quiz-finish.jpg)
 
@@ -56,19 +54,19 @@ Dictionary
 
 I have manually tested this project by doing:
 
-- Passed the code through a PEP8 linter and confirmed there are no problems.
+- Passed the code through a PEP8 linter and confirmed there are no significant errors.
 - Try different options while playing the game to see if the score is correct.
-- Finished the game several times to see if the score is correct and option to replay appears.
+- Finished the game several times to see if the score is correct and the option to replay appears.
 
 ## Bugs
 
 ### Solved bugs
 
-- For a while I could not start the game properly. By making a small change in the new_game code I managed to make it work.
+- For a while I couldn't start the game properly. I fixed it by making changes in the new_game code.
 
 ### Remaining bugs
 
-- There is no bugs in the game.
+- There is no remaining bugs.
 
 ### Validator testing
 
@@ -77,7 +75,7 @@ I have manually tested this project by doing:
 
 ## Deployment
 
-This project was deployes using the Code Institute's mock terminal for Heroku.
+This project was deployed using the Code Institute mock terminal for Heroku.
 - Steps for deployment
     - Fork or clone this repository
     - Create a new Heroku app
@@ -89,9 +87,8 @@ This project was deployes using the Code Institute's mock terminal for Heroku.
 
 The code that I've used in this project is my own. Code that I've learned from Code Institute Python modules, loop tutorial that I found online and from Youtube.
 
-- [Python Loop](https://www.youtube.com/watch?v=yriw5Zh406s&t=199s&ab_channel=BroCode)
+- [Python Loop](https://www.freecodecamp.org/news/python-while-loop-tutorial/)
 - [Bro Code](https://www.youtube.com/watch?v=yriw5Zh406s&t=199s&ab_channel=BroCode)
-- [Bro Code](https://www.youtube.com/watch?v=zehwgTB0vV8&ab_channel=BroCode)
 
 ### Content
 
