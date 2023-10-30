@@ -16,7 +16,7 @@ This game is for entertainment purpose and to see if the player have good memory
 
 This game has two features. One where the player will choose one out of four options for every option that appears. The second feature is where the result will appear, the correct answers and ask the player if he/she want's to play again.
 
-### Existing Features
+### Existing features
 
 - __The Game Area__
 
@@ -32,13 +32,13 @@ This is where the correct answer and player guesses are displayed. The score is 
 
 ### Features left to implement
 
-- One feature that would make the game more difficult and fun would be to add more questions. But everytime the game starts, the game only choose ten random questions. Next time the game starts it choose ten new questions so that everytime there is new questions to choose from.
+- One feature that would make the game more difficult and fun would be to add more questions. But everytime the game starts, the game only choose ten random questions. Next time the game starts it chooses ten new questions so that everytime there is new questions to choose from.
 
 - Feature that gives the player the option to show or hide the correct answers.
 
-## Data Model
+## Data model
 
-I decided to use functions and dictionary in my project. The game has four functions that let the player start the game, see the available options, choose one asnwer, check the answer and replay the game. The dictionary holds all the options the player can choose from and the questions that are available.
+I decided to use functions and dictionary for this project. The game has four functions that let the player start the game, see the available options, choose one asnwer, check the answer and replay the game. The dictionary holds all the options the player can choose from and the questions that are available.
 
 Function
 - New game
@@ -63,6 +63,7 @@ I have manually tested this project by doing:
 ### Solved bugs
 
 - For a while I couldn't start the game properly. I fixed it by making changes in the new_game code.
+- When installing dependencies in requirements.txt IDE Codeanywhere installed several dependencies that wasn't necessary and made the deployment to Heroku impossible. I solved this by removing the unecessary ones and kept just the ones that are shown in the CI python module.
 
 ### Remaining bugs
 
@@ -87,12 +88,13 @@ This project was deployed using the Code Institute mock terminal for Heroku.
 
 The code that I've used in this project is my own. Code that I've learned from Code Institute Python modules, loop tutorial that I found online and from Youtube.
 
+- Code Institute for the basic python knowledge and how to deploy project to Heroku
 - [Python Loop](https://www.freecodecamp.org/news/python-while-loop-tutorial/)
 - [Bro Code](https://www.youtube.com/watch?v=yriw5Zh406s&t=199s&ab_channel=BroCode)
 
 ### Content
 
-- The main game area and function comes from [Bro Code](https://www.youtube.com/watch?v=yriw5Zh406s&t=199s&ab_channel=BroCode)
+- The main game area, function and dictionary comes from [Bro Code](https://www.youtube.com/watch?v=yriw5Zh406s&t=199s&ab_channel=BroCode)
 
 ## Media
 
